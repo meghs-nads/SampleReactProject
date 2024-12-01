@@ -28,6 +28,8 @@ const App = () => {
 
       <p>para added by jv</p>
       <p>para added by megh</p>
+
+      <p>para 2 added by megh</p>
       <Footer />
     </div>
   );
