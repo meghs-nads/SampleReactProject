@@ -22,6 +22,8 @@ const App = () => {
         <li>Cat</li>
         <li>Dog</li>
       </ul>
+
+      <p>para added by jv</p>
       <Footer />
     </div>
   );
