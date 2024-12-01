@@ -22,6 +22,8 @@ const App = () => {
         <li>Cat</li>
         <li>Dog</li>
       </ul>
+
+      <p>megh paragraph</p>
       <Footer />
     </div>
   );
