@@ -8,6 +8,13 @@ const App = () => {
     <div>
       <Navbar />
       
+      <ul>
+        <li>apple jv</li>
+        <li>ball jv</li>
+        <li>cat jv</li>
+        <li>cokie jv</li>
+      </ul>
+  
       {/* <Hero /> */}
       <Footer />
     </div>
