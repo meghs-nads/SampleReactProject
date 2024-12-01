@@ -23,7 +23,7 @@ const App = () => {
         <li>Dog</li>
       </ul>
 
-      <p>megh paragraph</p>
+      <p>para added by jv</p>
       <Footer />
     </div>
   );
