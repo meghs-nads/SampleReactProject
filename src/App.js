@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div> this is hte gret file</div>
-      <Hero />
+      
+      {/* <Hero /> */}
       <Footer />
     </div>
   );
