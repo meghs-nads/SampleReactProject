@@ -24,6 +24,8 @@ const App = () => {
       </ul>
 
       <p>para added by jv</p>
+      
+
       <Footer />
     </div>
   );
