@@ -5,21 +5,17 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
-   
-   
-
+      <Hero />
 
       <ul>
         <li>apple jv</li>
         <li>ball jv</li>
         <li>cat jv</li>
-        <li>cokie jv</li>
-
+        <li>cookie jv</li>
       </ul>
   
-      {/* <Hero /> */}
       <ul>
         <li>Apple</li>
         <li>Ball</li>
@@ -28,16 +24,12 @@ const App = () => {
       </ul>
 
       <p>para added by jv</p>
-      
-
-      <p>para added by jv</p>
       <p>para added by megh</p>
-
       <p>para 2 added by megh</p>
+      
       <Footer />
-    </div>
+    </>
   );
 };
-
 
 export default App;
