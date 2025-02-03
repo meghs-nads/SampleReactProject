@@ -14,9 +14,6 @@ const App = () => {
         <li>ball jv</li>
         <li>cat jv</li>
         <li>cookie jv</li>
-      </ul>
-  
-      <ul>
         <li>Apple</li>
         <li>Ball</li>
         <li>Cat</li>
