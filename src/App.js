@@ -18,6 +18,7 @@ const App = () => {
         <li>Ball</li>
         <li>Cat</li>
         <li>Dog</li>
+<li>Dog</li>
       </ul>
 
       <p>para added by jv</p>
