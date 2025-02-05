@@ -10,7 +10,8 @@ const App = () => {
       <Hero />
 
 
-      <ul>
+   
+   <ul>
  
 
        <li>apple jv</li>
