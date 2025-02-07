@@ -4,27 +4,20 @@ import Hero from './components/Hero';
 import Footer from './components/Footer';
 
 const App = () => {
+  const items = [
+    'apple jv', 'ball jv', 'cat jv', 'cookie jv',
+    'Apple', 'Ball', 'Cat', 'Dog'
+  ];
+
   return (
     <>
       <Navbar />
       <Hero />
 
-
-   
-   <ul>
- 
-
-
-
-       <li>apple jv</li>
-        <li>ball jv</li>
-        <li>cat jv</li>
-        <li>cookie jv</li>
-        <li>Apple</li>
-        <li>Ball</li>
-        <li>Cat</li>
-        <li>Dog</li>
-<li>Dog</li>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
       </ul>
 
       <p>para added by jv</p>
