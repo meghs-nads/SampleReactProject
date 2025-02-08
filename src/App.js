@@ -6,13 +6,15 @@ import Footer from './components/Footer';
 const App = () => {
   const items = [
     'apple jv', 'ball jv', 'cat jv', 'cookie jv',
-    'Apple', 'Ball', 'Cat', 'Dog'
+    'Apple', 'Ball', 'Cat', 'Dog', 'Elephant' // Added new item
   ];
 
   return (
     <>
       <Navbar />
       <Hero />
+
+      <h1>Welcome to the Sample React Project</h1> {/* Added welcome message */}
 
       <ul>
         {items.map((item, index) => (
