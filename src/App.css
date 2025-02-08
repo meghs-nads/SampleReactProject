@@ -7,9 +7,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  background-color: #f8f9fa; /* Added a background color */
 }
-
-
 
 .container {
   max-width: 1200px;
@@ -19,11 +18,12 @@ body {
 
 h1, h2, p {
   margin: 0;
+  padding-bottom: 10px; /* Added padding to headings and paragraphs */
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #007bff; /* Changed link color */
 }
 
 a:hover {
@@ -32,8 +32,19 @@ a:hover {
 
 button {
   cursor: pointer;
+  border: none; /* Added border reset */
+  padding: 10px 20px; /* Added padding to buttons */
+  background-color: #007bff; /* Added background color to buttons */
+  color: #fff; /* Added text color to buttons */
 }
 
 button:hover {
   opacity: 0.8;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px; /* Added padding to footer */
+  background-color: #343a40; /* Added background color to footer */
+  color: #fff; /* Added text color to footer */
 }
