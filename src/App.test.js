@@ -8,4 +8,9 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-
+test('renders welcome message', () => {
+  render(<App />);
+  
+  const welcomeElement = screen.getByText(/Welcome to the Sample React Project/i);
+  expect(welcomeElement).toBeInTheDocument();
+});
