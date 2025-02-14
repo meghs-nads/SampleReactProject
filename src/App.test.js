@@ -14,3 +14,4 @@ test('renders welcome message', () => {
   const welcomeElement = screen.getByText(/Welcome to the Sample React Project/i);
   expect(welcomeElement).toBeInTheDocument();
 });
+
