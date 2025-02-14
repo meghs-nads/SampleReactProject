@@ -9,8 +9,6 @@ test('renders learn react link', () => {
 });
 
 
-
-
 test('renders welcome message', () => {
   render(<App />);
   
