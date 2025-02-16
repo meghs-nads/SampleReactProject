@@ -10,7 +10,6 @@ class ErrorBoundary extends React.Component {
     this.state = { hasError: false };
   }
 
-
   static getDerivedStateFromError(error) {
     return { hasError: true };
   }
@@ -29,6 +28,9 @@ class ErrorBoundary extends React.Component {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+console.log("App is starting to render"); // Added console log
+
 root.render(
   <React.StrictMode>
     <ErrorBoundary>
