@@ -3,8 +3,6 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
 
-
-
 const App = () => {
   const [display, setDisplay] = useState('0');
   const [operator, setOperator] = useState(null);
@@ -62,6 +60,7 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
+      <h1>Simple Calculator</h1> {/* Added title */}
       <div className="calculator">
         <div className="display">{display}</div>
         <div className="buttons">
