@@ -9,6 +9,7 @@ const App = () => {
   const [firstValue, setFirstValue] = useState(null);
   const [waitingForSecondValue, setWaitingForSecondValue] = useState(false);
 
+
   const handleButtonClick = (value) => {
     if (Number.isInteger(value)) {
       if (waitingForSecondValue) {
