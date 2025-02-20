@@ -30,6 +30,11 @@ const App = () => {
         setOperator(null);
         setWaitingForSecondValue(false);
       }
+    } else if (value === 'Reset') { // Added reset button functionality
+      setDisplay('0');
+      setOperator(null);
+      setFirstValue(null);
+      setWaitingForSecondValue(false);
     } else {
       if (!waitingForSecondValue) {
         setFirstValue(display);
@@ -53,14 +58,15 @@ const App = () => {
     7, 8, 9, '/',
     4, 5, 6, '*',
     1, 2, 3, '-',
-    0, 'C', '=', '+'
+    0, 'C', '=', '+',
+    'Reset' // Added Reset button
   ];
 
   return (
     <>
       <Navbar />
       <Hero />
-      <h1>Simple Calculator</h1> {/* Added title */}
+      <h1>Simple Calculator</h1>
       <div className="calculator">
         <div className="display">{display}</div>
         <div className="buttons">
