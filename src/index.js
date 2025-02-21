@@ -14,13 +14,12 @@ class ErrorBoundary extends React.Component {
     return { hasError: true };
   }
 
-
   componentDidCatch(error, errorInfo) {
     console.error("Error caught in ErrorBoundary: ", error, errorInfo);
   }
 
   componentDidMount() {
-    console.log("ErrorBoundary component has mounted"); // Added console log
+    console.log("ErrorBoundary component has mounted");
   }
 
   render() {
@@ -34,12 +33,22 @@ class ErrorBoundary extends React.Component {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-console.log("App is starting to render"); // Added console log
+console.log("App is starting to render");
+
+class AppWithMountLog extends React.Component {
+  componentDidMount() {
+    console.log("App component has mounted"); // Added console log
+  }
+
+  render() {
+    return <App />;
+  }
+}
 
 root.render(
   <React.StrictMode>
     <ErrorBoundary>
-      <App />
+      <AppWithMountLog />
     </ErrorBoundary>
   </React.StrictMode>
 );
