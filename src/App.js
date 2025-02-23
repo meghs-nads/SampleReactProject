@@ -8,9 +8,6 @@ import Footer from './components/Footer';
 
 
 
-
-
-
 const App = () => {
   const [display, setDisplay] = useState('0');
   const [operator, setOperator] = useState(null);
